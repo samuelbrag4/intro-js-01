@@ -3,7 +3,7 @@ function exibirNome() {
 
     console.log(nome);
 
-    let mensagem = document.getElementById('msg').innerHTML = `Olá ${nome}!`
+    let mensagem = document.getElementById('msg').innerHTML = `Olá, ${nome}!`
 
     /*
     .innerHTML - pode ser usado para alterar/criar elementos de forma mais abrangente. Podendo até mesmo criar tags
@@ -13,5 +13,3 @@ function exibirNome() {
 
     console.log(mensagem)
 }
-
-exibirNome();
