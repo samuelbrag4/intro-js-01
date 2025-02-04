@@ -12,4 +12,6 @@ function exibirNome() {
     */
 
     console.log(mensagem)
+
+    confetti();
 }

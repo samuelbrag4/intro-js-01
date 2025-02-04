@@ -2,6 +2,9 @@ let contador = 0;
 
 function atualizarDisplay() {
     document.getElementById('result').innerText = contador;
+    if (contador % 10 === 0 && contador !== 0) {
+        confetti();
+    }
 }
 
 function zerar() {
