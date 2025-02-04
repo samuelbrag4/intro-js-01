@@ -4,16 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="https://github.githubassets.com/images/icons/emoji/octocat.png" type="image/x-icon"> <!--Código para colocar um icone no dominio-->
+    <link rel="shortcut icon" href="https://github.githubassets.com/images/icons/emoji/octocat.png" type="image/x-icon">
+    <!--Código para colocar um icone no dominio-->
 
-    <title>Introdução - JavaScript</title>
+    <title>Calculos - Introdução - JavaScript</title>
 
     <link rel="stylesheet" href="../assets/styles/math.styles.css">
 </head>
 
 <body>
 
-    
+    <button>
+        <a href="../index.html">Ir para Index page</a>
+    </button>
+
+
+    <div>
+        <input id="numA" type="number" placeholder="Número A">
+        <input id="numB" type="number" placeholder="Número B">
+    </div>
+
+    <div>
+        <button id="btn" onclick="calcular()">Calcular</button>
+    </div>
+
+    <p id="result"></p>
 
     <script src="../assets/scripts/math.scripts.js"></script>
 </body>
